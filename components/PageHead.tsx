@@ -23,14 +23,17 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
 
       <meta name='theme-color' content='#EB625A' />
       <meta property='og:type' content='website' />
-      <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYK20S9Y0G"></script>
-      <script>
+      <script dangerouslySetInnerHTML={
+        { __html: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-PYK20S9Y0G');
+        `}
+      }>
+      </script>
+      <script>
       </script>
     </Head>
   )

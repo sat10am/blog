@@ -22,4 +22,4 @@ $ npm run dev
 - 수동으로 배포할경우에는 아래 이미지를 참고하세요
   - Actions → publish-articles → Run workflow → Run workflow 클릭
 
-![Screenshot-Saari_20210321_014350](https://user-images.githubusercontent.com/38732995/111877530-29670480-89e7-11eb-9d83-1f31002926ed.png | width=250)
+![Screenshot-Saari_20210321_014350](https://user-images.githubusercontent.com/38732995/111877530-29670480-89e7-11eb-9d83-1f31002926ed.png)
